@@ -1,0 +1,39 @@
+$material-icons-font-path: '~material-icons/iconfont/';
+ 
+@import '~material-icons/iconfont/material-icons.scss';
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|IBM+Plex+Serif&display=swap');
+
+html {
+    // Color Scheme
+    --control-surface-normal: white;
+    --control-accent-normal: #636363;
+    --control-surface-hover: #F5FFF2;
+    --control-accent-hover: #42AC1C;
+    --control-surface-active: #E0E0E0;
+    --control-accent-active: #969696;
+    --control-surface-disabled: #E0E0E0;
+    --control-accent-disabled: #CBCBCB;
+    --control-surface-danger: #FFF1EF;
+    --control-accent-danger: #F22A0F;
+    --content-surface: #F7F7F7;
+    --content-accent: #636363;
+    --scaffold-surface: #EEEEEE;
+    --hard-divider: #636363;
+    --soft-divider: #CBCBCB;
+    --focus-splash: rgba(255, 255, 255, 0.8);
+
+    // Control Specs
+    --border-width: 1px;
+    --border-radius: 5px;
+    --splash-border-radius: 6px;
+    --shadow: 0 8px 8px -6px rgba(0, 0, 0, 0.2);
+    --small-control-height: 22px;
+    --small-round-control-height: 24px;
+    --normal-control-height: 30px;
+    --tall-control-height: 36px;
+
+    // Animation Specs
+    --transition-duration: 0.2s;
+    --transition-curve: ease;
+}
